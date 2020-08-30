@@ -1,7 +1,7 @@
 module PydaViewTool
   class Renderer
     def self.copyright(name,msg)
-      "&copy; | <b>#{name}</b> #{msg}".html_safe
+      "&copy; #{Time.now.year}| <b>#{name}</b> #{msg}".html_safe
     end
   end
 end
